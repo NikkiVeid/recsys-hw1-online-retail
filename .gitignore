@@ -1,0 +1,15 @@
+data/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+*.zip
+*.xlsx
+*.pkl
+*.pt
+*.npy
+*.npz
+.env
+validation.log
