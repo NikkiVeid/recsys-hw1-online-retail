@@ -1,0 +1,45 @@
+{
+  "ItemKNN": {
+    "k": 30,
+    "shrink": 20
+  },
+  "iALS": {
+    "factors": 32,
+    "reg": 10.0,
+    "alpha": 5.0,
+    "iterations": 12,
+    "seed": 42
+  },
+  "EASE": {
+    "reg": 500.0
+  },
+  "FM": {
+    "factors": 32,
+    "lr": 0.005,
+    "weight_decay": 1e-05,
+    "epochs": 8,
+    "negatives": 3,
+    "batch_size": 4096,
+    "metadata": true,
+    "seed": 42
+  },
+  "Custom iALS": {
+    "factors": 32,
+    "reg": 10.0,
+    "alpha": 5.0,
+    "iterations": 12,
+    "seed": 42,
+    "tau_days": 365.0,
+    "saturation": 2.0
+  },
+  "FM IDs only": {
+    "factors": 32,
+    "lr": 0.005,
+    "weight_decay": 1e-05,
+    "epochs": 8,
+    "negatives": 3,
+    "batch_size": 4096,
+    "metadata": false,
+    "seed": 42
+  }
+}

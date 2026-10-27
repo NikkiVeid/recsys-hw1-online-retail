@@ -1,0 +1,24 @@
+{
+  "validation": {
+    "future_unique_pairs": 76981,
+    "cold_user_pairs": 20453,
+    "cold_item_pairs": 6266,
+    "warm_pairs": 51744,
+    "already_seen_pairs": 18527,
+    "novel_relevant_pairs": 33217,
+    "evaluated_users": 1407,
+    "future_users": 2133,
+    "catalog_items": 3388
+  },
+  "test": {
+    "future_unique_pairs": 67524,
+    "cold_user_pairs": 11888,
+    "cold_item_pairs": 733,
+    "warm_pairs": 54983,
+    "already_seen_pairs": 22183,
+    "novel_relevant_pairs": 32800,
+    "evaluated_users": 1440,
+    "future_users": 1904,
+    "catalog_items": 3607
+  }
+}
